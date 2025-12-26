@@ -71,3 +71,12 @@ print('something'[-1])
 # Slicing substrings - str[start:end]
 print('abc'[1:3])
 # bc
+
+# python3 <filename> to interpret input commands
+
+# Getting input from the user
+name = input('Enter your name: ')
+print('Are you really', name, '?')
+
+num = input('Enter an integer: ')
+print(type(num))
