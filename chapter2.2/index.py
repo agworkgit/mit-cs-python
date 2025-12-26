@@ -75,8 +75,10 @@ print('abc'[1:3])
 # python3 <filename> to interpret input commands
 
 # Getting input from the user
+# The raw input will be returned as a string and must be type cast if number or boolean!
+
 name = input('Enter your name: ')
 print('Are you really', name, '?')
 
-num = input('Enter an integer: ')
+num = float(input('Enter an integer: '))
 print(type(num))
